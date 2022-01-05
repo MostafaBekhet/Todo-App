@@ -8,8 +8,6 @@ RUN npm install
 
 RUN npm install -g nodemon
 
-RUN npm install axios
-
 ADD . .
 
 EXPOSE 8080
